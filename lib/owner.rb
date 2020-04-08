@@ -50,7 +50,7 @@ class Owner
   end 
   
   def walk_dogs
-    @dogs.each do |dog| dog.
+    @dogs.each do |dog| dog.mood 
   end 
   
   def feed_cats 
