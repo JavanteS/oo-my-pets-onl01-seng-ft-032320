@@ -49,7 +49,8 @@ class Owner
   @cats = []
   end 
   
-  def 
+  def feed_cats 
+  end 
   
   
 
