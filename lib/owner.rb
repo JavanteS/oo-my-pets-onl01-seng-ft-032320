@@ -42,11 +42,14 @@ class Owner
   def sell_pets
     
     @dogs.zip(@cats).each do |dog, cat| 
+      dog.owner = nil
+      dog.mood = "nervous"
       cat.owner = nil 
       cat.mood = "nervous"
       
     end 
   @cats = []
+  @dogs = []
   end 
   
   def walk_dogs
