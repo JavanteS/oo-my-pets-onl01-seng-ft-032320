@@ -49,7 +49,8 @@ class Owner
   @cats = []
   end 
   
-  def walk_dogs 
+  def walk_dogs
+    @dogs.each do |dog| dog.
   end 
   
   def feed_cats 
