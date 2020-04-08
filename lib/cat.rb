@@ -15,6 +15,11 @@ class Cat
     @@all
   end 
   
+  def buy_cat(name)
+    
+    
+  end 
+  
   
 
 end
